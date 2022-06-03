@@ -1,0 +1,46 @@
+<h1>Welcome to Student Database Management System</h1>
+    <h4>Please Login into your respective roles</h4>
+<div id="form1">
+<form method="post"  >
+        <p id ="head">Management Login:</p>
+        <p>
+            <label id="lab" for ="mgmt_id"> Management ID: </label><br><br>
+            <input type="text" id="mgmt_id" name="mgmt_id" placeholder="Username" size = "20" maxlength="25" >
+        </p>
+        <p>
+            <label id="lab" for ="magmt_pwd"> Password: </label><br><br>
+            <input type="password" name="mgmt_pwd" id="mgmt_pwd"placeholder="Password:" size ="20" maxlength="20" >
+        </p>
+        <p>
+            <input type="submit"  value = "login" {{action "verify_mgmt_login" }}>
+        </p>
+</form>
+</div>
+<div id="form2">
+<form method="post">
+    <p id ="head"> Student Login:</p>
+    <p>
+        <label id="lab" for ="stu_id"> Student ID: </label><br><br>
+        <input type="number" name="stu_id" placeholder="Roll no." size = "20" maxlength="25">
+    </p>
+    <p>
+        <label id="lab" for  ="stu_pwd"> Password: </label><br><br>
+        <input type="password" name="stu_pwd" placeholder="Password:" size ="20" maxlength="20">
+    </p>
+    <p>
+            <input type="submit" value="login" {{action "verify_stu_login" }}>
+    </p>
+</form>
+</div>
+<br>
+<form method="get" id="slogout">
+<p><input id="setting" type="submit" value="Student Logout" ></p>
+</form>
+<p>
+<form method="get" id="mlogout">
+    <p ><input id="setting" type="submit" value="Management Logout" ></p>
+</form></p>
+{{#each this.model as |roll_no|}}
+<p><input id="roll_no" type="submit" value={{roll_no}} ></p>
+ {{/each}}
+{{outlet}}

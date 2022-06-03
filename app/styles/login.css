@@ -1,0 +1,69 @@
+#form1{
+    float: left;
+    width: 30%;
+    height: 300px;
+    border:solid #000000;
+    margin-top: 100px;
+    text-align: center;
+    margin-left: 60px;
+    background-color: #ffebcd;
+}
+#form2{
+    float: right;
+    width: 35%;
+    height: 300px;
+    border:solid #000000;
+    margin-top: 100px;
+    text-align: center;
+    margin-right: 40px;
+    background-color: #ffebcd;
+}
+#head{
+    font-size: 2em;
+    font-style: times normal;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #0000ff;
+}
+#lab{
+    font-size: 1.5em;
+}
+h1
+{
+  text-align: center;
+  font-family:'Times New Roman', Times, serif;
+  font-size:60px; 
+  color: #79272e;
+}   
+h4
+{
+  text-align: center;
+  font-family:'Times New Roman', Times, serif;
+  font-size: 20px; 
+  color: #ac2d51;
+}
+#slogout
+{
+   float:right;
+    width: 20%;
+    height: 35px;
+    text-align: center;
+    margin-right: 200px;
+    margin-top: 50px;
+}
+#mlogout
+{
+    float:left;
+    width: 20%;
+    height: 35px;
+    text-align: center;
+    margin-left: 150px;
+    margin-top: 50px;
+}
+#setting
+{
+    border-style: revert;
+	color: #ac2d51;
+    font-size: 1.5em;
+    border-radius: 425px;
+}

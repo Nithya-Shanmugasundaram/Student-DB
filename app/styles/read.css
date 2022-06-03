@@ -1,0 +1,93 @@
+#namepart
+{
+    float: left;
+    width: 30%;
+    height: 200px;
+    border:solid #000000;
+    margin-top: 50px;
+    text-align: center;
+    background-color: #ffebcd;
+    margin: auto;
+}
+#deptpart
+{
+    float: left;
+    width: 30%;
+    height: 200px;
+    border:solid #000000;
+    text-align: center;
+    background-color: #ffebcd;
+    margin-left: 60px;
+}
+#mailidpart
+{
+    float: right;
+    width: 30%;
+    height: 200px;
+    border:solid #000000;
+    text-align: center;
+    background-color: #ffebcd;
+    margin: auto;
+}
+#rollnopart
+{
+    float: left;
+    width: 30%;
+    height: 200px;
+    border:solid #000000;
+    text-align: center;
+    background-color: #ffebcd;
+    margin-top: 50px;
+}
+#yearpart
+{
+    float: left;
+    width: 30%;
+    height: 200px;
+    border:solid #000000;
+    text-align: center;
+    background-color: #ffebcd;
+    margin-left: 60px;
+    margin-top: 50px;
+}
+#attperpart
+{
+    float: right;
+    width: 30%;
+    height: 200px;
+    border:solid #000000;
+    text-align: center;
+    background-color: #ffebcd;
+    margin-top: 50px;
+}
+#cgpapart
+{
+    float: left;
+    width: 30%;
+    height: 200px;
+    border:solid #000000;
+    text-align: center;
+    background-color: #ffebcd;
+    margin-top: 50px;
+}
+#sgpapart
+{
+    float: left;
+    width: 30%;
+    height: 200px;
+    border:solid #000000;
+    text-align: center;
+    background-color: #ffebcd;
+    margin-left: 60px;
+    margin-top: 50px;
+}
+#ascdescpart
+{
+    float: right;
+    width: 30%;
+    height: 200px;
+    border:solid #000000;
+    text-align: center;
+    background-color: #ffebcd;
+    margin-top: 50px;
+}

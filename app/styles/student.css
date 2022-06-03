@@ -1,0 +1,27 @@
+#re_form
+{
+    float: center;
+    width: 40%;
+    height: 550px;
+    border:solid #000000;
+    text-align: center;
+    background-color: #ffebcd;
+    font-size: 1.5em;
+    margin: auto;
+}
+.link-stu
+{
+    text-align:center;
+    border-radius: 5em;
+    width: 20%;
+    height: 30px;
+    background-color: #ac2d51;
+    color: #ffebcd;
+    margin: auto;
+}
+.link-s
+{
+   text-align:center;
+   color:#ffebcd;
+   padding-top: 5px;
+}
